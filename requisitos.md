@@ -14,7 +14,7 @@ Instalación con ppa alternativo (Ubuntu quantal)
 -----------------------------------------------------------------------
 *Preparación*
 
-Asegúrate de de tener el repository component universe habilitado.
+Asegúrate de de tener el repositorio universe habilitado.
 
     # en /etc/apt/sources.list
     deb http://archive.ubuntu.com/ubuntu quantal main restricted universe
@@ -52,11 +52,13 @@ Instalación con nvm
 Nvm es el gestor de versiones de Node. Nos permite instalar versiones específicas de Node y cambiar entre ellas.
 
 *Instalación de nvm*
+
     sudo apt-get install g++ curl libssl-dev apache2-utils git-core
     curl https://raw.github.com/creationix/nvm/master/install.sh | sh
     source ~/.profile
 
 *Instalación de Node*
+
     nvm install 0.8
     nvm alias default 0.8
 
@@ -75,6 +77,7 @@ PhantomJS
 PhantomJS es un navegador WebKit sin interfaz gráfica. Nos va a permitir ejecutar tests sin tener que ver el navegador, e incluso ejecutarlos en un servidor de integración continua que no tenga escritorio.
 
 Para instalar la versión 1.9 podemos ejecutar
+
     wget https://phantomjs.googlecode.com/files/phantomjs-1.9.0-linux-x86_64.tar.bz2
     tar jxvf phantomjs-1.9.0-linux-x86_64.tar.bz2
     sudo mv phantomjs-1.9.0-linux-x86_64/bin/phantomjs /usr/local/bin/
