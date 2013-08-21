@@ -4,7 +4,7 @@ Node.js
 ===========
 Node.js es una herramienta que nos permitirá ejecutar código Javascript en nuestra máquina sin necesidad de un navegador. La mayor parte del resto de herramientas se basan en node.js por lo que es importante que esté funcionando sin problemas.
 
-Para instalarlo existen distintas opciones, en Windows y Mac podemos descargar [el instalador de la página oficial](http://nodejs.org/download/) y ejecutarlo.
+Para instalarlo existen distintas opciones. En Windows y Mac podemos descargar [el instalador de la página oficial](http://nodejs.org/download/) y ejecutarlo.
 
 En Linux deberemos prescindir de instalarlo por paquetes  ya que las distribuciones no suelen ofrecer estos paquetes actualizados y porque el nombre de ejecutable *node* ya está reservado por otra aplicación.
 
@@ -87,4 +87,16 @@ Generador de Angular para Yeoman
 Como Yeoman es un generador genérico, deberemos instalar el generador específico para Angular:
 
     npm install -g generator-angular
+    npm install -g generator-karma
 
+
+Probando la instalación
+==========================
+
+Si todo ha funcionado podremos ejecutar sin problemas las siguientes instrucciones:
+
+    mkdir prueba && cd prueba
+    yo angular
+    npm install
+    bower install
+    grunt test
