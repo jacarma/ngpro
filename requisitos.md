@@ -8,7 +8,7 @@ Para instalarlo existen distintas opciones. En Windows y Mac podemos descargar [
 
 En Linux deberemos prescindir de instalarlo por paquetes  ya que las distribuciones no suelen ofrecer estos paquetes actualizados y porque el nombre de ejecutable *node* ya está reservado por otra aplicación.
 
-La que yo recomiendo es la última, mediante nvm.
+La que yo recomiendo es la tercera, instalación mediante nvm.
 
 Instalación con ppa alternativo (Ubuntu quantal)
 -----------------------------------------------------------------------
