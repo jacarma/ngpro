@@ -1,0 +1,17 @@
+<input type="text" ng-model="search" class="search-query pull-right" placeholder="Search">
+<table class="table">
+	<thead>
+		<th>Nombre</th>
+		<th>director</th>
+		<th>puntuación</th>
+		<th>favorita</th>
+	</thead>
+	<tbody>
+		<tr class="pelicula" ng-repeat="pelicula in peliculas | filter:search">
+			<td>{{pelicula.nombre}}</td>
+			<td>{{pelicula.director}}</td>
+			<td>{{pelicula.puntuacion}}</td>
+			<td>{{pelicula.favorita}}</td>
+		</tr>
+	</tbody>
+</table>

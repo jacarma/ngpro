@@ -1,0 +1,24 @@
+{
+  "node": true,          //Evita errores al usar las variables globales de Node
+  "browser": true,       //Evita errores al usar las variables globales del navegador
+  "esnext": true,        //Indicamos que usamos la versión 6 de Ecma Script
+  "bitwise": true,       //Prohibe el uso de operadores bitwise (no suelen usarse)
+  "camelcase": true,     //Fuerza variables camelCase o MAYUSCULAS_CON_GUION_BAJO
+  "curly": true,         //Impide bloques (if, for, while) sin corchetes {}
+  "eqeqeq": true,        //Obliga a usar === y !===
+  "immed": true,         //Obliga a cubrir con paréntesis llamadas inmediatas a funciones 
+  "indent": 2,           //Número de espacios en blancos de la tabulación (configurar Sublime igual)
+  "latedef": true,       //Obliga a definir variables y funciones antes de su uso (true, false, nofunc)
+  "newcap": true,        //Fuerza a que los nombres de constructores comiencen por mayúscula
+  "noarg": true,         //Impide el uso de arguments.callee y arguments.caller
+  "quotmark": "single",  //Obliga a que los String se definan con comillas simples (simple, double, true)
+  "regexp": true,        //Valida expresiones regulares
+  "undef": true,         //Impide el uso de variables no definidas
+  "unused": true,        //Avisa de variables definidas pero no usadas
+  "strict": true,        //Fuerza el uso del modo strict de ECMAScript
+  "trailing": true,      //Impide que dejemos espacios en blanco al final de la línea
+  "smarttabs": true,     //Elimina warnings por uso mezclado de espacios y tabs usados para alinear
+  "globals": {           //Permite definir variables globales
+    "angular": false     //Permitimos la variable global angular (false = solo lectura)
+  }
+}
