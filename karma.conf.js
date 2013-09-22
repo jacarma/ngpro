@@ -19,6 +19,13 @@ module.exports = function(config) {
       'test/mock/**/*.js',
       'test/spec/**/*.js'
     ],
+    preprocessors: {
+      'app/scripts/**/*.js': ['coverage']
+    },
+    coverageReporter: {
+      type : 'cobertura',
+      dir : 'coverage/'
+    },
 
     // list of files / patterns to exclude
     exclude: [],
