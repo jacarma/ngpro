@@ -13,6 +13,7 @@ module.exports = function(config) {
     files: [
       'app/bower_components/angular/angular.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
+      'app/bower_components/angular-resource/angular-resource.js',
       'app/scripts/*.js',
       'app/scripts/**/*.js',
       'test/mock/**/*.js',
@@ -23,7 +24,7 @@ module.exports = function(config) {
     exclude: [],
 
     // web server port
-    port: 8080,
+    port: 8081,
 
     // level of logging
     // possible values: LOG_DISABLE || LOG_ERROR || LOG_WARN || LOG_INFO || LOG_DEBUG
@@ -42,7 +43,7 @@ module.exports = function(config) {
     // - Safari (only Mac)
     // - PhantomJS
     // - IE (only Windows)
-    browsers: ['Chrome', 'Firefox'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
