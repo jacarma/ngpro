@@ -26,6 +26,7 @@ module.exports = function(config) {
       type : 'cobertura',
       dir : 'coverage/'
     },
+    reporters: ['coverage'],
 
     // list of files / patterns to exclude
     exclude: [],
