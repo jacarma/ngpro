@@ -5,3 +5,4 @@ dist
 app/bower_components
 server
 coverage
+test-results.xml

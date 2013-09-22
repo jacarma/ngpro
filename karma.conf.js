@@ -26,7 +26,11 @@ module.exports = function(config) {
       type : 'cobertura',
       dir : 'coverage/'
     },
-    reporters: ['coverage'],
+    reporters: ['coverage', 'junit'],
+    junitReporter: {
+      outputFile: 'test-results.xml',
+      suite: ''
+    },
 
     // list of files / patterns to exclude
     exclude: [],
