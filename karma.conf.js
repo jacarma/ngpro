@@ -26,7 +26,7 @@ module.exports = function(config) {
       type : 'cobertura',
       dir : 'coverage/'
     },
-    reporters: ['coverage', 'junit'],
+    reporters: ['coverage', 'junit' ],
     junitReporter: {
       outputFile: 'test-results.xml',
       suite: ''
