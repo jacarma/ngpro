@@ -1,3 +1,3 @@
-npm install -g grunt grunt-cli
-npm install
-grunt
+call npm install -g grunt grunt-cli
+call npm install
+call grunt
